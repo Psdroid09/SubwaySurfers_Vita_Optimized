@@ -18,3 +18,10 @@
 - Más reducción de nivel de mipmap, LOD y presupuesto de raycasts.
 - Comprobación ZIP y reproducción por dos entradas verificadas; solo cambios en `Media/globalgamemanagers`.
 - Sin prueba de rendimiento en hardware, mejora de FPS no confirmada.
+
+## v1.2-pre — Rendimiento Plus (experimental, 2026-10-14)
+- Parche opcional que desactiva softVegetation y reduce particleRaycastBudget de 32 a 16.
+- Integridad ZIP comprobada; solo dos bytes modificados en Media/globalgamemanagers.
+- Nuevo comparador offline de lecturas de FPS con promedio, mínimo, p10 y porcentaje bajo 30 FPS.
+- Seis pruebas sintéticas nuevas superadas localmente.
+- No hay prueba de mejora de FPS ni prueba de arranque de esta variante en PS Vita real.

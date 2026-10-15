@@ -1,0 +1,23 @@
+{
+  "mode": "Rendimiento Plus",
+  "input_sha256": "322f95262b4fc9fcd9f3dcfdcaa3ba5a6a9296009b4f4907bf812e8866849c93",
+  "output_sha256": "029698535ca2d6a22fa78c073f436436aef365bb9c5ece6bbc77e591f20d0c77",
+  "changed_file": "Media/globalgamemanagers",
+  "changed_byte_offsets": [
+    58193,
+    58208
+  ],
+  "changes": {
+    "softVegetation": {
+      "old": 1,
+      "new": 0
+    },
+    "particleRaycastBudget": {
+      "old": 32,
+      "new": 16
+    }
+  },
+  "fps_measured": false,
+  "vita_hardware_tested": false,
+  "warning": "No FPS improvement proven. Only ZIP and structural integrity confirmed."
+}

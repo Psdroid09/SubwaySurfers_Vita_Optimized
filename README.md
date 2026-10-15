@@ -70,3 +70,15 @@ Nueva variante con texturas aún más reducidas, `lodBias=0.5` y `particleRaycas
 ```bash
 python tools/quality_patch.py "Subway Surfers new.vpk" "SubwaySurfers_Vita_UltraLigero_Experimental.vpk" --modo ultraligero
 ```
+
+## v1.2-pre: Rendimiento Plus — experimental
+
+Se añadió otra variante del port que desactiva softVegetation y reduce el presupuesto de raycasts de partículas, así como un comparador de mediciones de FPS. **Sin pruebas en hardware ni mejora de FPS verificada.**
+
+Generar a partir del VPK Ultra Ligero v1.1:
+
+~~~powershell
+python tools/performance_plus.py "SubwaySurfers_Vita_UltraLigero_Experimental.vpk" "SubwaySurfers_Vita_RendimientoPlus_Experimental.vpk" --report reporte.json
+~~~
+
+[Instrucciones completas](docs/RENDIMIENTO_PLUS.md). No distribuimos VPK completos ni recursos comerciales en este repositorio público.
