@@ -56,3 +56,9 @@ Este repositorio **no contiene el VPK, ejecutables, recursos gráficos ni datos 
 ## Referencias
 - https://www.gamebrew.org/wiki/Subway_Surfers_Vita
 - https://www.reddit.com/r/vitahacks/comments/1n7eo1m/another_port_of_subway_surfers_more_content_and/
+
+## v1.1-pre1: modo ligero experimental
+
+Añadimos un parche binario específico para el perfil `QualitySettings` de Unity 2018.2.19f1: reduce la resolución de texturas con mipmaps, desactiva el filtrado anisotrópico, reduce el sesgo LOD y el presupuesto de raycasts de partículas. **No se ha comprobado que mejore FPS ni se ha probado el arranque en Vita real.**
+
+Genera el VPK a partir de tu propia copia con `tools/quality_patch.py`. Lee [los cambios, riesgos e instrucciones de prueba](docs/MODO_LIGERO_EXPERIMENTAL.md). No se distribuyen binarios comerciales ni el VPK completo.

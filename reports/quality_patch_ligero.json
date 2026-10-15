@@ -1,0 +1,26 @@
+{
+  "modo": "ligero",
+  "origen_sha256": "d6c330b020b960b0c2c79afafa762a1a04eb8013f081a41f380dd38b513dbb7d",
+  "salida_sha256": "d228888498a79fda88af66ee0ffc08337812ba69a14fcaa786800504ae820460",
+  "archivo_modificado": "Media/globalgamemanagers",
+  "num_bytes_cambiados": 7,
+  "parametros": {
+    "texture_quality": {
+      "antes": 0,
+      "despues": 1
+    },
+    "anisotropic_textures": {
+      "antes": 1,
+      "despues": 0
+    },
+    "lod_bias": {
+      "antes": 1,
+      "despues": 0.7
+    },
+    "particle_raycast_budget": {
+      "antes": 256,
+      "despues": 64
+    }
+  },
+  "advertencia": "Sin prueba de arranque ni FPS en PS Vita; solo verificación de integridad ZIP y cambios binarios."
+}
