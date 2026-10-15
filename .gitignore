@@ -1,0 +1,17 @@
+# No redistribuir el juego ni binarios del port original
+*.vpk
+*.suprx
+*.self
+*.bin
+*.assets
+*.resource
+*.resS
+Media/
+sce_module/
+sce_sys/
+eboot.bin
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+local/

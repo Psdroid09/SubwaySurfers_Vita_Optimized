@@ -1,0 +1,17 @@
+{
+  "filename": "Subway Surfers new.vpk",
+  "archive_bytes": 146395214,
+  "sha256": "d6c330b020b960b0c2c79afafa762a1a04eb8013f081a41f380dd38b513dbb7d",
+  "problems": [],
+  "entries": 44,
+  "uncompressed_bytes": 146389686,
+  "compressed_bytes": 146389686,
+  "compression_methods": {"0": 44},
+  "missing_core_files": [],
+  "title_id": "SUSU01010",
+  "title": "Subway Surfers",
+  "app_version": "01.00",
+  "unity_version": "2018.2.19f1",
+  "zip_crc_ok": true,
+  "ok": true
+}
