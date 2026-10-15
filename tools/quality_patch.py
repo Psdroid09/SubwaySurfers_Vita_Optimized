@@ -29,6 +29,8 @@ MODES = {
                        lod_bias=0.8, particle_raycast_budget=128),
     "ligero": dict(texture_quality=1, anisotropic_textures=0,
                   lod_bias=0.7, particle_raycast_budget=64),
+    "ultraligero": dict(texture_quality=2, anisotropic_textures=0,
+                       lod_bias=0.5, particle_raycast_budget=32),
 }
 
 

@@ -1,0 +1,25 @@
+{
+  "status": "experimental - ZIP-only verification",
+  "mode": "ultraligero",
+  "input_sha256": "d228888498a79fda88af66ee0ffc08337812ba69a14fcaa786800504ae820460",
+  "expected_original_sha256": "d6c330b020b960b0c2c79afafa762a1a04eb8013f081a41f380dd38b513dbb7d",
+  "output_sha256": "322f95262b4fc9fcd9f3dcfdcaa3ba5a6a9296009b4f4907bf812e8866849c93",
+  "changed_archive_member": "Media/globalgamemanagers",
+  "changed_bytes_from_pre1": 5,
+  "before": {
+    "texture_quality": 1,
+    "anisotropic_textures": 0,
+    "lod_bias": 0.7,
+    "particle_raycast_budget": 64
+  },
+  "after": {
+    "texture_quality": 2,
+    "anisotropic_textures": 0,
+    "lod_bias": 0.5,
+    "particle_raycast_budget": 32
+  },
+  "vsync_unchanged": true,
+  "executables_unchanged": true,
+  "hardware_test": false,
+  "fps_improvement_confirmed": false
+}

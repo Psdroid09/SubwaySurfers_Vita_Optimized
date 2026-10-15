@@ -62,3 +62,11 @@ Este repositorio **no contiene el VPK, ejecutables, recursos gráficos ni datos 
 Añadimos un parche binario específico para el perfil `QualitySettings` de Unity 2018.2.19f1: reduce la resolución de texturas con mipmaps, desactiva el filtrado anisotrópico, reduce el sesgo LOD y el presupuesto de raycasts de partículas. **No se ha comprobado que mejore FPS ni se ha probado el arranque en Vita real.**
 
 Genera el VPK a partir de tu propia copia con `tools/quality_patch.py`. Lee [los cambios, riesgos e instrucciones de prueba](docs/MODO_LIGERO_EXPERIMENTAL.md). No se distribuyen binarios comerciales ni el VPK completo.
+
+## v1.1-pre2: Ultra Ligero (experimental)
+
+Nueva variante con texturas aún más reducidas, `lodBias=0.5` y `particleRaycastBudget=32`. No se ha medido una mejora de FPS ni se ha probado el arranque de esta variante en PS Vita. Consulta [la guía Ultra Ligero](docs/MODO_ULTRALIGERO_EXPERIMENTAL.md) antes de probarla.
+
+```bash
+python tools/quality_patch.py "Subway Surfers new.vpk" "SubwaySurfers_Vita_UltraLigero_Experimental.vpk" --modo ultraligero
+```

@@ -33,7 +33,7 @@ def test_quality_location():
     assert read_settings(data) == EXPECTED
 
 
-@pytest.mark.parametrize("mode", ["equilibrado", "ligero"])
+@pytest.mark.parametrize("mode", ["equilibrado", "ligero", "ultraligero"])
 def test_quality_patch(mode):
     data = fake_unity_file()
     modified, change_log, changed = patch_settings(data, mode)

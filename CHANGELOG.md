@@ -12,3 +12,9 @@
 - Verificados 7 bytes diferentes dentro de `Media/globalgamemanagers` y todos los demás miembros ZIP idénticos.
 - 5 tests nuevos; 9 tests automáticos superados localmente.
 - Pendiente confirmar arranque y rendimiento real en PS Vita.
+
+## v1.1-pre2 — Ultra Ligero (experimental, 2026-10-14)
+- Añadida opción `ultraligero` al parche reproducible de Unity `QualitySettings`.
+- Más reducción de nivel de mipmap, LOD y presupuesto de raycasts.
+- Comprobación ZIP y reproducción por dos entradas verificadas; solo cambios en `Media/globalgamemanagers`.
+- Sin prueba de rendimiento en hardware, mejora de FPS no confirmada.
